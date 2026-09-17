@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies - 6619410036 Pimpikun Butprom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0d0d0e; color: #ffffff; min-height: 100vh; padding: 20px 40px; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        
+        nav {
+            background-color: #1a1a1c; border-radius: 10px; padding: 16px 30px;
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 50px; border: 1px solid #28282c;
+        }
+        .nav-links { display: flex; gap: 30px; list-style: none; }
+        .nav-links a { color: #9e9e9e; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: #ffffff; }
+        .social-links { display: flex; gap: 18px; align-items: center; }
+        .social-links a { color: #9e9e9e; text-decoration: none; font-size: 16px; }
+
+        .page-title { font-size: 36px; font-weight: 800; margin-bottom: 10px; }
+        .page-subtitle { color: #8f8f93; margin-bottom: 40px; font-family: monospace; }
+
+        .grid-projects {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+        }
+        .card {
+            background-color: #121214; border: 1px solid #222226; border-radius: 12px;
+            padding: 24px; transition: transform 0.3s, border-color 0.3s;
+        }
+        .card:hover { transform: translateY(-4px); border-color: #39b54a; }
+        .card h3 { font-size: 20px; margin-bottom: 12px; color: #ffffff; }
+        .card p { color: #8f8f93; font-size: 14px; line-height: 1.6; font-family: monospace; }
+
+        @media (max-width: 768px) {
+            .grid-projects { grid-template-columns: 1fr; }
+            nav { flex-direction: column; gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="case-studies.html" class="active">Case Studies</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Recent work</a></li>
+                <li><a href="get-in-touch.html">Get In Touch</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <h1 class="page-title">Case Studies</h1>
+        <p class="page-subtitle">ตัวอย่างผลงานและการแก้ไขปัญหาจากโปรเจกต์ที่ผ่านมา</p>
+
+        <div class="grid-projects">
+            <div class="card">
+                <h3>01. E-Commerce Redesign</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti, distinctio laudantium in placeat unde accusamus consequuntur!</p>
+            </div>
+            <div class="card">
+                <h3>02. Mobile Banking App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti, distinctio laudantium in placeat unde accusamus consequuntur!</p>
+            </div>
+            <div class="card">
+                <h3>03. Dashboard Analytics</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti, distinctio laudantium in placeat unde accusamus consequuntur!</p>
+            </div>
+            <div class="card">
+                <h3>04. AI SaaS Platform</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti, distinctio laudantium in placeat unde accusamus consequuntur!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
